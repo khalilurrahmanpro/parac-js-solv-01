@@ -1,3 +1,4 @@
+// Question 01
 const result = 10;
 if(result >= 0 && result <40 ){
     console.log('faild');
@@ -17,5 +18,19 @@ else if(result >= 80 & result <=100){
 }
 else{
     console.log('invaild');
+}
+// question 02
+const input = prompt("5");
+const number = parseInt(input);
+
+if (isNaN(number)) {
+  console.log("please write correct number");
+} else {
+  const result = (number % 2 === 0) ? "evenNum" : "oddNum";
+  console.log(`${number} হলো ${result}`);
+}
+// question 03
+for (let i = 1; i <= 20; i++) {
+  console.log(i);
 }
 
